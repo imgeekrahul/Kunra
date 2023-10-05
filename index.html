@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>KunRa Cinema Production</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="indexStyle.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"> -->
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="image/png" href="image/logo1.jpeg" sizes="96x96">
+  <script src="https://www.youtube.com/player_api"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+    var player1 = undef;
+    var player2 = undef;
+    var player3 = undef;
+    // var player4 = undef;
+    // var player5 = undef;
+    function onYouTubeIframeAPIReady() {
+      player1 = new YT.Player('player1', {
+        height: '400',
+        width: '100%', 
+        videoId: 'ibHNejMoiP0'
+      });
+
+      player2 = new YT.Player('player2', {
+        height: '400',
+        width: '100%', 
+        videoId: 'Y1LYehdnI1k'
+      });
+
+      // player3 = new YT.Player('player3', {
+      //   height: '500',
+      //   width: '100%', 
+      //   videoId: '384080122'
+      // });
+
+      // player4 = new YT.Player('player4', {
+      //   height: '500',
+      //   width: '100%', 
+      //   videoId: 'Y1LYehdnI1k'
+      // });
+
+      player3 = new YT.Player('player3', {
+        height: '400',
+        width: '100%', 
+        videoId: '4WMcI1Cq_o8'
+      });
+
+      player4 = new YT.Player('player4', {
+        height: '400',
+        width: '100%', 
+        videoId: 'AeofIpMoG1g'
+      });
+
+      player5 = new YT.Player('player5', {
+        height: '400',
+        width: '100%', 
+        videoId: 'AGHM8grmyJg'
+      });
+
+      player6 = new YT.Player('player6', {
+        height: '400',
+        width: '100%', 
+        videoId: 'SkPjAGyDEU8'
+      });
+
+      player7 = new YT.Player('player7', {
+        height: '400',
+        width: '100%', 
+        videoId: 'pP8lYTUzJ6U'
+      });
+
+      player8 = new YT.Player('player8', {
+        height: '400',
+        width: '100%', 
+        videoId: 'XPmbvUI-c8o'
+      });
+
+      player9 = new YT.Player('player9', {
+        height: '400',
+        width: '100%', 
+        videoId: 'kOPbc_gN2Z8'
+      });
+
+      player10 = new YT.Player('player10', {
+        height: '400',
+        width: '100%', 
+        videoId: 'FZxKYfoVP-w'
+      });
+
+      player11 = new YT.Player('player11', {
+        height: '400',
+        width: '100%', 
+        videoId: 'eCeQKrxCrm4'
+      });
+
+      player12 = new YT.Player('player12', {
+        height: '400',
+        width: '100%', 
+        videoId: 'iU82KOcLpzI'
+      });
+
+      player13 = new YT.Player('player13', {
+        height: '400',
+        width: '100%', 
+        videoId: 'CX3JMqjChCA'
+      });
+
+      player14 = new YT.Player('player14', {
+        height: '800',
+        width: '100%', 
+        videoId: 'iU82KOcLpzI',        
+      });
+
+    $(document).on('mouseover', '#player1', function() {
+      player1.playVideo();
+    });
+    $(document).on('mouseout', '#player1', function() {
+      player1.pauseVideo();
+    });
+     
+    $(document).on('mouseover', '#player2', function() {
+      player2.playVideo();
+    });
+    $(document).on('mouseout', '#player2', function() {
+      player2.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player3', function() {
+      player3.playVideo();
+    });
+    $(document).on('mouseout', '#player3', function() {
+      player3.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player4', function() {
+      player4.playVideo();
+    });
+    $(document).on('mouseout', '#player4', function() {
+      player4.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player5', function() {
+      player5.playVideo();
+    });
+    $(document).on('mouseout', '#player5', function() {
+      player5.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player6', function() {
+      player6.playVideo();
+    });
+    $(document).on('mouseout', '#player6', function() {
+      player6.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player7', function() {
+      player7.playVideo();
+    });
+    $(document).on('mouseout', '#player7', function() {
+      player7.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player8', function() {
+      player8.playVideo();
+    });
+    $(document).on('mouseout', '#player8', function() {
+      player8.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player9', function() {
+      player9.playVideo();
+    });
+    $(document).on('mouseout', '#player9', function() {
+      player9.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player10', function() {
+      player10.playVideo();
+    });
+    $(document).on('mouseout', '#player10', function() {
+      player10.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player11', function() {
+      player11.playVideo();
+    });
+    $(document).on('mouseout', '#player11', function() {
+      player11.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player12', function() {
+      player12.playVideo();
+    });
+    $(document).on('mouseout', '#player12', function() {
+      player12.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player13', function() {
+      player13.playVideo();
+    });
+    $(document).on('mouseout', '#player13', function() {
+      player13.pauseVideo();
+    });
+
+    $(document).on('mouseover', '#player14', function() {
+      player14.playVideo();
+    });
+    $(document).on('mouseout', '#player14', function() {
+      player14.pauseVideo();
+    });
+    
+  }
+
+  
+  </script>
+
+
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#" style="font-size: 30px; font-family: 500px;">
+          <img src="image/logo1.jpeg" alt="" width="60" height="30"
+            class="d-inline-block align-text-top" style="margin-top: 10px;">
+          KunRa Cinema
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+            <a class="nav-link text-white" href="#team">Team Works</a>
+            <a class="nav-link text-white" href="#company">Companies</a>
+            <a class="nav-link text-white" href="#animation">Animation</a>
+            <a class="nav-link text-white" href="#film">Film</a>
+            <a class="nav-link text-white" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div class="icons">
+      <a href="#" class="facebook">facebook <i class="fab fa-facebook-f"></i> </a>
+      <a href="#" class="youtube">Youtube <i class="fab fa-youtube"></i> </a>
+      <a href="#" class="twitter">Twitter <i class="fab fa-twitter"></i> </a>
+    </div> -->
+    
+    <div id="player14"></div>
+      <!-- <div id="player2"></div> -->
+      <!-- <div id="player3"></div>
+      <div id="player4"></div> -->
+      <!-- <div id="player5"></div> -->
+
+      <div class="about" id="about">
+        <div class="row mt-5 w-100">
+          <div class="col p-5">
+            <img src="image/aboutus.png" class="img-fluid" width="500px" height="600px">
+          </div>
+          <div class="col pt-5" style="line-height: 30px;">
+            <h2 style="font-size: 40px;">About US - <p style="color:blue;">KunRa Cinema</p></h2>
+            <hr class="horizontal" width= "500px;" size="10">
+            <p style="font-size: 20px;"> KunRa Cinema is a production company which is aimed at delivering quality content in the fields of cinema,
+              films, ads, commercials, 2D and 3D animations. Since our venture in 2017, we have focussed on adpting to the taste of our audience; produce and deliver content that is family friendly and widely engaging. We have been in collaboration with many influencers and FO productions to deliver engaging content for our audiences' entertainment.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 w-100">
+        <div class="col p-5">
+          <img src="image/office.jpg" class="img-fluid" width="500px" height="600px">
+        </div>
+        <div class="col pt-5" style="line-height: 30px;">
+          <center>
+            <h2 style="font-size: 40px;">BRAND COMMUNICATION</h2>
+            <hr class="horizontal" width= "500px;" size="10">
+            <p style="font-size: 20px;">Across sectors, our team of creative writers, directors, designers, editors and more, brainstorm to create the perfect communication for your brand. We believe that an emotionally resonant story is the key to attracting and holding an audience's attention. Right from scripting to end-to-end production, we are the one-stop shop for all your brand's video and communication needs.</p>
+          </center>
+        </div>
+      </div>
+
+      <div class="row mt-5 w-100">
+        <div class="col p-5">
+          <img src="image/corporate.jpg" class="img-fluid" width="500px" height="600px">
+        </div>
+        <div class="col pt-5" style="line-height: 30px;">
+          <center>
+            <h2 style="font-size: 40px;">CORPORATE COMMUNICATION</h2>
+            <hr class="horizontal" width= "600px;" size="10">
+            <p style="font-size: 20px;">Given our experience of years of working with HR Heads, Diversity & Inclusion Heads and Talent Management professionals for multiple organisations, we understand the language and tone of internal communication. We script, edit and shoot campaigns  guided by a strong understanding of your organisation's culture and facilitate the process of creating a formidable Employer Brand.</p>
+          </center>
+        </div>
+      </div>
+
+      
+
+      <div class="team" id="team">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">Our Team Members Work</h2>
+              <hr class="horizontal" width= "500px;" size="10">
+
+              <div class="row w-100 mt-5">
+                <div class="col">
+                  <div id="player2"></div>
+                </div>
+                <div class="col">
+                  <div id="player3"></div>
+                </div>
+              </div>
+              <div class="row w-100 mt-3">
+                <div class="col">
+                  <div id="player1"></div>
+                </div>
+                <div class="col">
+                  <iframe src="https://player.vimeo.com/video/382752317" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+              </div>
+
+              <p class="text-center mt-5" style="line-height: 20px;">
+                <strong>We are working with millions followers youtubers and influencers like : Baklol Video, Samreen Ali, Sanjhalika, Captain Nick, Vibhu, Riya Mavi, Sanju Sehrawat</strong>
+              </p>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="animation" id="animation">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">Animation Media</h2>
+              <hr class="horizontal" width="500px;" size="10">
+              <p class="text-center mt-5" style="line-height: 20px;"><strong>Our company is also working as a co-prodution in the field of 2D and 3D animation : KunRa TV, PMtoons, Cartoon Capsule, Wow Animation.</strong></p>
+
+              <div class="row w-100 mt-5">
+                <div class="col">
+                  <div id="player4"></div>
+                </div>
+                <div class="col">
+                  <div id="player5"></div>
+                </div>
+                <div class="col">
+                  <div id="player6"></div>
+                </div>
+                <div class="col">
+                  <div id="player7"></div>
+                </div>
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="film" id="film">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">SHORT FILM Media</h2>
+              <hr class="horizontal" width="500px;" size="10">
+              <div class="row w-100 mt-5">
+                <div class="col">
+                  <div id="player8"></div>
+                </div>
+                <div class="col">
+                  <div id="player9"></div>
+                </div>
+                
+              </div>
+              <div class="row w-100 mt-5">
+                <div class="col">
+                  <div id="player10"></div>
+                </div>
+                <div class="col">
+                  <div id="player11"></div>
+                </div>
+                
+              </div>
+              <div class="row w-100 mt-5">
+                <div class="col">
+                  <div id="player12"></div>
+                </div>
+                <div class="col">
+                  <div id="player13"></div>
+                </div>
+                
+              </div>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <div class="company" id="company">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">Companies collaboration</h2>
+              <hr class="horizontal" width="500px;" size="10">
+            </center>
+          </div>
+        </div>
+        <!-- Carousel Try -->
+        <section class="pt-2 pb-5">
+          <div class="container">
+              <div class="row">
+                  <center>
+                    <div class="col-6">
+                        <h4 class="mb-3 text-center">We are working with :</h4>
+                    </div>
+                  </center>
+                    <div class="col text-right">
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                  <div class="col-12">
+                      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+      
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <div class="row">
+      
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid slide" alt="100%x280" src="image/pktaces.jpeg">
+                                              <div class="card-body">
+                                                  <h4 class="card-title">Pocket Aces</h4>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid slide" alt="100%x280" src="image/socio.jpeg" width="100%" height="100px">
+                                              <div class="card-body">
+                                                  <h4 class="card-title">Sociopool pvt ltd.</h4>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid slide" alt="100%x280" src="image/spiceUp.jpeg">
+                                              <div class="card-body">
+                                                  <h4 class="card-title">Spiceup Media</h4>
+                                              </div>
+                                          </div>
+                                      </div>
+      
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="row">
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid slide" alt="100%x280" src="image/rvcj.jpeg">
+                                              <div class="card-body">
+                                                  <h4 class="card-title">RVCJ Media</h4>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid slide" alt="100%x280" src="image/engineeringBro.jpeg">
+                                              <div class="card-body">
+                                                  <h4 class="card-title">Enginenring Bro</h4>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-md-4 mb-3">
+                                          <div class="card">
+                                              <img class="img-fluid slide" alt="100%x280" src="image/kunra.jpeg">
+                                              <div class="card-body">
+                                                  <h4 class="card-title">KunRa Entertainment</h4>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <!-- carousel Try -->
+      </div>
+
+
+      <div class="client" id="client">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">Our Clients</h2>
+              <hr class="horizontal" width="500px;" size="10">
+            </center>
+          </div>
+        </div>
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <img src="image/alt.jpeg" width="100px" height="100px" style="border-radius: 50px;">
+            </center>
+          </div>
+          <div class="col">
+            <center>
+              <img src="image/b4u.jpeg" width="100px" height="100px" style="border-radius: 50px;">
+            </center>
+          </div>
+          <div class="col">
+            <center>
+              <img src="image/heroCycle.jpeg" width="100px" height="100px" style="border-radius: 50px;">
+            </center>
+          </div>
+          <div class="col">
+            <center>
+              <img src="image/kfc.jpeg" width="100px" height="100px" style="border-radius: 50px;">
+            </center>
+          </div>
+          <div class="col">
+            <center>
+              <img src="image/socio.jpeg" width="100px" height="100px" style="border-radius: 50px;">
+            </center>
+          </div>
+        </div>
+        <div class="row w-100">
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">GET IN TOUCH WITH US</h2>
+              <hr class="horizontal" width="500px;" size="10">
+              <p class="text-center mt-5">
+                <strong></strong>
+              </p>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrxLqdazH5JbuVnAOtQPt94aQXp38as_UbRFffufm7EVI-8g/viewform?embedded=true" width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </center>
+          </div>
+        </div>
+      </div>
+
+      <section class="">
+        <!-- Footer -->
+        <footer class="bg-secondary text-white text-center text-md-start bg-dark">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase" style="text-align: left;">KunRa Cinema</h5>
+                <p style="text-align: left;">
+                  KunRa Cinema is a production company which is aimed at delivering quality content in the fields of cinema,
+                  films, ads, commercials, 2D and 3D animations. Since our venture in 2017, we have focussed on adpting to the taste of our audience; produce and deliver content that is family friendly and widely engaging. We have been in collaboration with many influencers and FO productions to deliver engaging content for our audiences' entertainment.
+                </p>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Quick Links</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#" class="text-white" style="text-decoration: none;">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white" style="text-decoration: none;">Terms and conditions</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white" style="text-decoration: none;">Copyright policy</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Connect With Us </h5>
+      
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="mailto:kunraworld@gmail.com" class="text-white" style="text-decoration: none;"><i class="fas fa-envelope-open-text"></i>&nbsp;&nbsp;kunraworld@gmail.com</a>
+                  </li>
+                  <li>
+                    <a href="tel:8827649522" class="text-white" style="text-decoration: none;"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;+91 - 8827649522</a>
+                  </li>
+                </ul>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </div>
+          <!-- Grid container -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="index.html" style="text-decoration: none;">KunRa Cinema</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      </section>
+</body>
+
+</html>
