@@ -10,7 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="indexStyle.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"> -->
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 
@@ -27,35 +26,7 @@
     // var player4 = undef;
     // var player5 = undef;
     function onYouTubeIframeAPIReady() {
-      player1 = new YT.Player('player1', {
-        height: '400',
-        width: '100%', 
-        videoId: 'ibHNejMoiP0'
-      });
-
-      player2 = new YT.Player('player2', {
-        height: '400',
-        width: '100%', 
-        videoId: 'Y1LYehdnI1k'
-      });
-
-      // player3 = new YT.Player('player3', {
-      //   height: '500',
-      //   width: '100%', 
-      //   videoId: '384080122'
-      // });
-
-      // player4 = new YT.Player('player4', {
-      //   height: '500',
-      //   width: '100%', 
-      //   videoId: 'Y1LYehdnI1k'
-      // });
-
-      player3 = new YT.Player('player3', {
-        height: '400',
-        width: '100%', 
-        videoId: '4WMcI1Cq_o8'
-      });
+      
 
       player4 = new YT.Player('player4', {
         height: '400',
@@ -69,80 +40,6 @@
         videoId: 'AGHM8grmyJg'
       });
 
-      player6 = new YT.Player('player6', {
-        height: '400',
-        width: '100%', 
-        videoId: 'SkPjAGyDEU8'
-      });
-
-      player7 = new YT.Player('player7', {
-        height: '400',
-        width: '100%', 
-        videoId: 'pP8lYTUzJ6U'
-      });
-
-      player8 = new YT.Player('player8', {
-        height: '400',
-        width: '100%', 
-        videoId: 'XPmbvUI-c8o'
-      });
-
-      player9 = new YT.Player('player9', {
-        height: '400',
-        width: '100%', 
-        videoId: 'kOPbc_gN2Z8'
-      });
-
-      player10 = new YT.Player('player10', {
-        height: '400',
-        width: '100%', 
-        videoId: 'FZxKYfoVP-w'
-      });
-
-      player11 = new YT.Player('player11', {
-        height: '400',
-        width: '100%', 
-        videoId: 'eCeQKrxCrm4'
-      });
-
-      player12 = new YT.Player('player12', {
-        height: '400',
-        width: '100%', 
-        videoId: 'iU82KOcLpzI'
-      });
-
-      player13 = new YT.Player('player13', {
-        height: '400',
-        width: '100%', 
-        videoId: 'CX3JMqjChCA'
-      });
-
-      player14 = new YT.Player('player14', {
-        height: '800',
-        width: '100%', 
-        videoId: 'iU82KOcLpzI',        
-      });
-
-    $(document).on('mouseover', '#player1', function() {
-      player1.playVideo();
-    });
-    $(document).on('mouseout', '#player1', function() {
-      player1.pauseVideo();
-    });
-     
-    $(document).on('mouseover', '#player2', function() {
-      player2.playVideo();
-    });
-    $(document).on('mouseout', '#player2', function() {
-      player2.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player3', function() {
-      player3.playVideo();
-    });
-    $(document).on('mouseout', '#player3', function() {
-      player3.pauseVideo();
-    });
 
     $(document).on('mouseover', '#player4', function() {
       player4.playVideo();
@@ -156,69 +53,6 @@
     });
     $(document).on('mouseout', '#player5', function() {
       player5.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player6', function() {
-      player6.playVideo();
-    });
-    $(document).on('mouseout', '#player6', function() {
-      player6.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player7', function() {
-      player7.playVideo();
-    });
-    $(document).on('mouseout', '#player7', function() {
-      player7.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player8', function() {
-      player8.playVideo();
-    });
-    $(document).on('mouseout', '#player8', function() {
-      player8.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player9', function() {
-      player9.playVideo();
-    });
-    $(document).on('mouseout', '#player9', function() {
-      player9.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player10', function() {
-      player10.playVideo();
-    });
-    $(document).on('mouseout', '#player10', function() {
-      player10.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player11', function() {
-      player11.playVideo();
-    });
-    $(document).on('mouseout', '#player11', function() {
-      player11.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player12', function() {
-      player12.playVideo();
-    });
-    $(document).on('mouseout', '#player12', function() {
-      player12.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player13', function() {
-      player13.playVideo();
-    });
-    $(document).on('mouseout', '#player13', function() {
-      player13.pauseVideo();
-    });
-
-    $(document).on('mouseover', '#player14', function() {
-      player14.playVideo();
-    });
-    $(document).on('mouseout', '#player14', function() {
-      player14.pauseVideo();
     });
     
   }
@@ -253,8 +87,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#" style="font-size: 30px; font-family: 500px;">
-          <img src="image/logo1.jpeg" alt="" width="60" height="30"
-            class="d-inline-block align-text-top" style="margin-top: 10px;">
+          <img src="image/1.png" alt="" width="60" height="50"
+            class="d-inline-block">
           KunRa Cinema
         </a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -270,17 +104,26 @@
       </div>
     </nav>
 
-    <!-- <div class="icons">
-      <a href="#" class="facebook">facebook <i class="fab fa-facebook-f"></i> </a>
-      <a href="#" class="youtube">Youtube <i class="fab fa-youtube"></i> </a>
-      <a href="#" class="twitter">Twitter <i class="fab fa-twitter"></i> </a>
-    </div> -->
-    
-    <div id="player14"></div>
-      <!-- <div id="player2"></div> -->
-      <!-- <div id="player3"></div>
-      <div id="player4"></div> -->
-      <!-- <div id="player5"></div> -->
+    <div class="crousel">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="image/CLASSFULL_Keyart_Poster_1.jpg" alt="First slide" style="height: 900px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="image/p1.jpeg" alt="Second slide" style="height: 900px">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 
       <div class="about" id="about">
         <div class="row mt-5 w-100">
@@ -322,35 +165,42 @@
         </div>
       </div>
 
-      
-
-      <div class="team" id="team">
+      <div class="upcoming_project" id="upcoming_project">
         <div class="row w-100">
           <div class="col">
             <center>
-              <h2 class="text-center">Our Team Members Work</h2>
-              <hr class="horizontal" width= "500px;" size="10">
+              <h2 class="text-center">Upcoming Project</h2>
+              <hr class="horizontal" width="500px;" size="10">
+              <img src="image/CLASSFULL_Keyart_Poster_1.jpg" height="900px" style="width: -webkit-fill-available;">
+            </center>
+          </div>
+        </div>
+      </div>
 
-              <div class="row w-100 mt-5">
+      <div class="media_release mt-5" id="media_release">
+        <div class="row w-100">
+          <div class="col">
+            <center>
+              <h2 class="text-center">Media Release</h2>
+              <hr class="horizontal" width="500px;" size="10">
+              
+              <div class="row mt-5 w-100">
                 <div class="col">
-                  <div id="player2"></div>
+                  <a href="https://www.zoomtventertainment.com/hindi/web-series/gautam-rode-web-series-rohitashwa-gaur-classfull-article-104243122">
+                    <img src="image/zoomtventertainment.webp" style="width: fit-content; height: 100px;" />
+                  </a>
                 </div>
                 <div class="col">
-                  <div id="player3"></div>
+                  <a href="https://www.outlookindia.com/art-entertainment/gautam-rode-rohitashv-gour-to-star-in-classfull-web-series-touted-to-be-a-tribute-to-teachers--news-322846">
+                    <img src="image/Outlook-Logo.png" style="width: fit-content; height: 100px;" />
+                  </a>
+                  </div>
+                <div class="col">
+                  <a href="https://theprint.in/feature/gautam-rode-rohitashv-gour-all-set-to-be-seen-in-classfull/1794519/">
+                    <img src="image//thePrint.jpeg" style="width: fit-content; height: 100px;" />
+                  </a>
                 </div>
               </div>
-              <div class="row w-100 mt-3">
-                <div class="col">
-                  <div id="player1"></div>
-                </div>
-                <div class="col">
-                  <iframe src="https://player.vimeo.com/video/382752317" width="100%" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                </div>
-              </div>
-
-              <p class="text-center mt-5" style="line-height: 20px;">
-                <strong>We are working with millions followers youtubers and influencers like : Baklol Video, Samreen Ali, Sanjhalika, Captain Nick, Vibhu, Riya Mavi, Sanju Sehrawat</strong>
-              </p>
             </center>
           </div>
         </div>
@@ -371,55 +221,12 @@
                 <div class="col">
                   <div id="player5"></div>
                 </div>
-                <div class="col">
-                  <div id="player6"></div>
-                </div>
-                <div class="col">
-                  <div id="player7"></div>
-                </div>
               </div>
             </center>
           </div>
         </div>
       </div>
 
-      <div class="film" id="film">
-        <div class="row w-100">
-          <div class="col">
-            <center>
-              <h2 class="text-center">SHORT FILM Media</h2>
-              <hr class="horizontal" width="500px;" size="10">
-              <div class="row w-100 mt-5">
-                <div class="col">
-                  <div id="player8"></div>
-                </div>
-                <div class="col">
-                  <div id="player9"></div>
-                </div>
-                
-              </div>
-              <div class="row w-100 mt-5">
-                <div class="col">
-                  <div id="player10"></div>
-                </div>
-                <div class="col">
-                  <div id="player11"></div>
-                </div>
-                
-              </div>
-              <div class="row w-100 mt-5">
-                <div class="col">
-                  <div id="player12"></div>
-                </div>
-                <div class="col">
-                  <div id="player13"></div>
-                </div>
-                
-              </div>
-            </center>
-          </div>
-        </div>
-      </div>
 
       <div class="company" id="company">
         <div class="row w-100">
@@ -518,50 +325,6 @@
         <!-- carousel Try -->
       </div>
 
-
-      <div class="client" id="client">
-        <div class="row w-100">
-          <div class="col">
-            <center>
-              <h2 class="text-center">Our Clients</h2>
-              <hr class="horizontal" width="500px;" size="10">
-            </center>
-          </div>
-        </div>
-        <div class="row w-100">
-          <div class="col">
-            <center>
-              <img src="image/alt.jpeg" width="100px" height="100px" style="border-radius: 50px;">
-            </center>
-          </div>
-          <div class="col">
-            <center>
-              <img src="image/b4u.jpeg" width="100px" height="100px" style="border-radius: 50px;">
-            </center>
-          </div>
-          <div class="col">
-            <center>
-              <img src="image/heroCycle.jpeg" width="100px" height="100px" style="border-radius: 50px;">
-            </center>
-          </div>
-          <div class="col">
-            <center>
-              <img src="image/kfc.jpeg" width="100px" height="100px" style="border-radius: 50px;">
-            </center>
-          </div>
-          <div class="col">
-            <center>
-              <img src="image/socio.jpeg" width="100px" height="100px" style="border-radius: 50px;">
-            </center>
-          </div>
-        </div>
-        <div class="row w-100">
-          <div class="col">
-
-          </div>
-        </div>
-      </div>
-
       <div class="contact" id="contact">
         <div class="row w-100">
           <div class="col">
@@ -618,10 +381,10 @@
       
                 <ul class="list-unstyled">
                   <li>
-                    <a href="mailto:kunraworld@gmail.com" class="text-white" style="text-decoration: none;"><i class="fas fa-envelope-open-text"></i>&nbsp;&nbsp;kunraworld@gmail.com</a>
+                    <a href="mailto:kunracinemaa@gmail.com" class="text-white" style="text-decoration: none;"><i class="fas fa-envelope-open-text"></i>&nbsp;&nbsp;kunracinemaa@gmail.com</a>
                   </li>
                   <li>
-                    <a href="tel:8827649522" class="text-white" style="text-decoration: none;"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;+91 - 8827649522</a>
+                    <a href="https://instagram.com/kunracinema?igshid=MmU2YjMzNjRlOQ==" class="text-white" style="text-decoration: none;"><i class="fab fa-instagram-square share"></i>&nbsp;&nbsp;kunracinema</a>
                   </li>
                 </ul>
               </div>
@@ -633,7 +396,7 @@
       
           <!-- Copyright -->
           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
+            © 2023 Copyright:
             <a class="text-white" href="index.html" style="text-decoration: none;">KunRa Cinema</a>
           </div>
           <!-- Copyright -->
